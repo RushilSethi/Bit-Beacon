@@ -39,9 +39,9 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            Bit Beacon
+            © 2024 Bit Beacon By Rushil Sethi.
             <br />
-            All rights reserved
+            All rights reserved.
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
