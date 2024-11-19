@@ -13,7 +13,6 @@ const { Panel } = Collapse;
 const Exchanges = () => {
   const { data, isFetching } = useGetCryptoExchangesQuery();
   const exchangesList = data;
-  console.log(exchangesList);
 
   if (isFetching)
     return (
