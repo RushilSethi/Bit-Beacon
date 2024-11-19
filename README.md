@@ -2,7 +2,7 @@
 Bit Beacon is a cryptocurrency app that allows users to explore live prices, news, and cryptocurrency exchanges. Built with a focus on usability and simplicity, it provides real-time data from multiple APIs and allows easy MetaMask integration(coming soon) for crypto transactions. Designed to be both informative and functional, Bit Beacon is your go-to platform for everything related to cryptocurrencies.
 
 ## Live Demo
-
+https://bit-beacon.netlify.app/ 
 
 ## Disclaimer
 Please note that all data and functionalities in this application are fetched from third-party APIs, such as CoinRanking API, The Guardian news, CryptoNews.com, and CoinGecko. As such, we are not responsible for any discrepancies or issues arising from external services. Features may not work properly due to changes in these APIs, and we encourage users to use the platform with this understanding.
