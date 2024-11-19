@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Bit Beacon
+Bit Beacon is a cryptocurrency app that allows users to explore live prices, news, and cryptocurrency exchanges. Built with a focus on usability and simplicity, it provides real-time data from multiple APIs and allows easy MetaMask integration(coming soon) for crypto transactions. Designed to be both informative and functional, Bit Beacon is your go-to platform for everything related to cryptocurrencies.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
 
-## Available Scripts
 
-In the project directory, you can run:
+## Disclaimer
+Please note that all data and functionalities in this application are fetched from third-party APIs, such as CoinRanking API, The Guardian news, CryptoNews.com, and CoinGecko. As such, we are not responsible for any discrepancies or issues arising from external services. Features may not work properly due to changes in these APIs, and we encourage users to use the platform with this understanding.
 
-### `npm start`
+## Features
+- Real-time cryptocurrency prices, including market data, trends, and more.
+- Latest cryptocurrency news, fetched from reputable sources.
+- Exchange rates and crypto exchange information powered by CoinGecko.
+- Integration with MetaMask for simple crypto transactions (wallet integration coming soon).
+- Fully responsive design, optimized for all devices.
+- Simple and intuitive interface with real-time updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Inspiration & Purpose
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was primarily driven by the desire to learn and practice Redux and Redux Toolkit and especially for integrating blockchain-related features like MetaMask. As a complete beginner in blockchain development, I followed a tutorial from JavaScriptMastery to help understand the integration process. This app is my way of applying these new skills and improving my understanding of blockchain, Solidity and the user experience associated with such platforms.
 
-### `npm test`
+The purpose of creating **Bit Beacon** was to explore practical use cases of cryptocurrency-related information and tools in a web application while gaining hands-on experience with ReactJS, Redux, and MetaMask.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run
+1. Clone or download the repository.
+2. Install dependencies using "npm install"
+3. Create a .env file in the root directory and add your API keys with proper variable names.
+4. Start the app using "npx craco start"
 
-### `npm run build`
+## Technologies Used
+- **ReactJS** for the frontend.
+- **CSS3** for styling and layout.
+- **Ant Design (AntD)** for UI components.
+- **Redux & Redux Toolkit** for state management.
+- **MetaMask** and tools like Solidity for blockchain integration.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+- Developed by: **Rushil Sethi**.
+- APIs Used:
+    - CoinRanking API for real-time cryptocurrency data.
+    - CoinGecko API for exchange and market info.
+    - The Guardian & CryptoNews.com for news aggregation.
