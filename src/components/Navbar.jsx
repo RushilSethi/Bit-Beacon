@@ -71,8 +71,8 @@ const Navbar = () => {
             </Menu.Item>
             <div className="special-nav-container">
               <button className="special-tab-button" 
-              // onClick={() => window.open("https://www.google.com", "_blank")}
-              >Coming Soon</button>
+              onClick={() => window.open("https://bit-beacon-mutualfunds.netlify.app/", "_blank")}
+              >Mutual Fund Tracker</button>
             </div>
           </Menu>
           

@@ -1,0 +1,68 @@
+/* Footer.css (with !important) */
+.mf-footer-github {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  padding: 8px 16px !important;
+  background-color: rgba(17, 24, 39, 0.85) !important;
+  backdrop-filter: blur(8px) !important;
+  border-top: 1px solid #374151 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 14px !important;
+  color: #d1d5db !important;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1) !important;
+  z-index: 50 !important;
+  font-family: sans-serif !important;
+}
+
+.mf-footer-github-content {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  position: relative !important;
+  background-color: transparent !important;
+}
+
+.mf-footer-github-text {
+  font-weight: 500 !important;
+  background-color: transparent !important;
+}
+
+.mf-footer-github-highlight {
+  color: #818cf8 !important;
+  background-color: transparent !important;
+}
+
+.mf-footer-github-divider {
+  height: 12px !important;
+  width: 1px !important;
+  background-color: #4b5563 !important;
+  margin: 0 4px !important;
+}
+
+.mf-footer-github-link {
+  display: flex !important;
+  align-items: center !important;
+  transition: color 0.3s ease !important;
+  background-color: transparent !important;
+}
+
+.mf-footer-github-link:hover {
+  color: #a5b4fc !important;
+  background-color: transparent !important;
+}
+
+.mf-footer-github-icon {
+  height: 20px !important;
+  width: 20px !important;
+  fill: currentColor !important;
+  transition: transform 0.3s ease !important;
+  background-color: transparent !important;
+}
+
+.mf-footer-github-link:hover .mf-footer-github-icon {
+  transform: scale(1.1) !important;
+}

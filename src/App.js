@@ -10,6 +10,7 @@ import {
   CryptoDetails,
 } from "./components";
 import "./App.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -34,12 +35,12 @@ const App = () => {
             </div>
           </div>
         </Layout>
-        <div className="footer">
+        <div className="footer" style={{ marginBottom: 20 }}>
           <Typography.Title
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            © 2024 Bit Beacon By Rushil Sethi.
+            © 2024 Bit Beacon.
             <br />
             All rights reserved.
           </Typography.Title>
@@ -50,6 +51,7 @@ const App = () => {
           </Space>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
