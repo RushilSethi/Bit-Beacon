@@ -17,7 +17,7 @@ Please note that all data and functionalities in this application are fetched fr
 
 ## Inspiration & Purpose
 
-This project was primarily driven by the desire to learn and practice Redux and Redux Toolkit and especially for integrating blockchain-related features like MetaMask. As a complete beginner in blockchain development, I followed a tutorial from JavaScriptMastery to help understand the integration process. This app is my way of applying these new skills and improving my understanding of blockchain, Solidity and the user experience associated with such platforms.
+This project was primarily driven by the desire to learn and practice Redux and Redux Toolkit and especially for integrating blockchain-related features like MetaMask. As a complete beginner in blockchain development, I followed a tutorial from JavaScriptMastery to help understand the integration process. This app is my way of applying these new skills and improving my understanding of blockchain, Solidity and the user experience associated with such platforms. (Wallet under development)
 
 The purpose of creating **Bit Beacon** was to explore practical use cases of cryptocurrency-related information and tools in a web application while gaining hands-on experience with ReactJS, Redux, and MetaMask.
 
